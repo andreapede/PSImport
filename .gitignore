@@ -1,0 +1,28 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment folders
+venv/
+.env/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore output files
+*.xlsx
+*.csv
+*.txt
+*.chi
+
+# Exclude sample.csv from being ignored
+!sample.csv
+!requirements.txt
+
+# Ignore logs
+*.log
+
+# Ignore IDE specific files
+.vscode/
+.idea/
